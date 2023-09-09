@@ -24,10 +24,10 @@ CREATE TABLE FACTURAS(
   	metodo_pago varchar(20) not null,
   	cantidad float not null,
   	primary key(cedula,codigo,n_factura),
-  	constraint FACTURAS_cedula_CLIENTES_cedula)
+  	constraint FACTURAS_cedula_CLIENTES_cedula
     foreign key (CLIENTES_cedula)
     references CLIENTES(cedula),
-    constraint FACTURAS_codigo_PRODUCTOS_codigo)
+    constraint FACTURAS_codigo_PRODUCTOS_codigo
     foreign key (PRODUCTOS_codigo)
     references PRODUCTOS(codigo)
     );
