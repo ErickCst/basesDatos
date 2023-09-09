@@ -1,0 +1,33 @@
+# DROP DATABASE IF EXISTS MICROMERCADO;
+# CREATE DATABASE MICROMERCADO;
+# USE DATABASE MICROMERCADO;
+
+CREATE TABLE CLIENTES(
+  	cedula varchar(13) primary key,
+	nombre varchar(20) not null,
+  	apellido varchar (20) not null,
+  	correo varchar (50) not null unique
+  	);
+
+CREATE TABLE PRODUCTOS(
+  	codigo int primary key auto_increment,
+	descripcion varchar(100) not null,
+  	unidad_venta varchar (100) not null,
+  	precio_unitario float not null
+	);
+
+CREATE TABLE FACTURAS(
+  	cedula varchar(13),
+  	codigo int,
+  	n_factura int,
+    fecha date not null,
+  	metodo_pago varchar(20) not null,
+  	cantidad float not null,
+  	primary key(cedula,codigo,n_factura),
+  	constraint FACTURAS_cedula_CLIENTES_cedula)
+    foreign key (CLIENTES_cedula)
+    references CLIENTES(cedula),
+    constraint FACTURAS_codigo_PRODUCTOS_codigo)
+    foreign key (PRODUCTOS_codigo)
+    references PRODUCTOS(codigo)
+    );
