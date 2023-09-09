@@ -28,7 +28,7 @@ CREATE TABLE REVISIONES(
   	aceite varchar (20) not null,
   	frenos varchar (20) not null,
   	otros varchar (20) not null,
-  	COCHES_matricula  varchar (13),
+  	COCHES_matricula  varchar (13) not null,
   	constraint REVISIONES_COCHES_matricula_COCHES_matricula
   	foreign key (COCHES_matricula)
   	references COCHES(matricula)
