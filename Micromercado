@@ -19,7 +19,7 @@ CREATE TABLE PRODUCTOS(
 CREATE TABLE FACTURAS(
   	cedula varchar(13),
   	codigo int,
-  	n_factura int auto_increment,
+  	n_factura int,
     fecha date not null,
   	metodo_pago varchar(20) not null,
   	cantidad float not null,
