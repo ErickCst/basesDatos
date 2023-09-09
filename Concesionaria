@@ -1,3 +1,9 @@
+/*
+DROP DATABASE IF EXISTS CONCESIONARIA;
+CREATE DATABASE CONCESIONARIA;
+USE DATABASE CONCESIONARIA;
+*/
+
 CREATE TABLE CLIENTES(
   	codigo_i int primary key auto_increment,
 	rfc varchar(13) not null unique,
@@ -16,4 +22,16 @@ CREATE TABLE COCHES(
   	constraint COCHES_clientes_codigo_i_CLIENTES_codigo_i
   	foreign key (CLIENTES_codigo_i)
   	references CLIENTES(codigo_i)
+  	);
+    
+CREATE TABLE REVISIONES(
+  	codigo int	primary key,
+  	filtro varchar (20) not null,
+  	aceite varchar (20) not null,
+  	frenos varchar (20) not null,
+  	otros varchar (20) not null,
+  	COCHES_matricula  varchar (13),
+  	constraint REVISIONES_COCHES_matricula_COCHES_matricula
+  	foreign key (COCHES_matricula)
+  	references COCHES(matricula)
   	);
