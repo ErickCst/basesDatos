@@ -1,8 +1,6 @@
-/*
-DROP DATABASE IF EXISTS CONCESIONARIA;
-CREATE DATABASE CONCESIONARIA;
-USE DATABASE CONCESIONARIA;
-*/
+# DROP DATABASE IF EXISTS CONCESIONARIA;
+# CREATE DATABASE CONCESIONARIA;
+# USE DATABASE CONCESIONARIA;
 
 CREATE TABLE CLIENTES(
   	codigo_i int primary key auto_increment,
@@ -25,7 +23,7 @@ CREATE TABLE COCHES(
   	);
     
 CREATE TABLE REVISIONES(
-  	codigo int	primary key,
+  	codigo int	primary key auto_increment,
   	filtro varchar (20) not null,
   	aceite varchar (20) not null,
   	frenos varchar (20) not null,
