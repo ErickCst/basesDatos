@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-07T22:09:27.529Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-6pLSNApSZy0T0pn1hRA" version="22.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-07T22:12:13.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="z2EZt3G7KYRzMcDdskfs" version="22.0.4" type="github" pages="4">
   <diagram name="Ejercicio 1" id="FrBDQu9QCX3IIZR1dz-c">
     <mxGraphModel dx="1313" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -512,12 +512,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yLjRSnCpNPyADWdvglwQ" name="Página-4">
-    <mxGraphModel dx="415" dy="284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2146" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bFmwUVUmIdxaQ0oEITNt-2" value="&lt;p style=&quot;margin: 0px 0px 10px; color: rgb(101, 101, 101); font-family: &amp;quot;Source Sans 3&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot; dir=&quot;ltr&quot;&gt;&lt;strong&gt;Proveedores&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 10px; color: rgb(101, 101, 101); font-family: &amp;quot;Source Sans 3&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot; dir=&quot;ltr&quot;&gt;Tenemos que diseñar una base de datos sobre proveedores y disponemos de&amp;nbsp;la siguiente información:&amp;nbsp;&lt;/p&gt;&lt;ul style=&quot;padding: 0px; margin: 0px 0px 10px 25px; color: rgb(101, 101, 101); font-family: &amp;quot;Source Sans 3&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1696640603970_134&quot;&gt;&lt;li style=&quot;line-height: 20px;&quot; id=&quot;yui_3_17_2_1_1696640603970_133&quot; dir=&quot;ltr&quot;&gt;De cada proveedor conocemos su nombre, dirección, ciudad, provincia y un código de proveedor que será único para cada uno de ellos.&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; dir=&quot;ltr&quot;&gt;Nos interesa llevar un control de las piezas que nos suministra cada proveedor. Es importante conocer la cantidad de las diferentes piezas que nos suministra y en qué fecha lo hace. Tenga en cuenta que un mismo proveedor nos puede suministrar una pieza con el mismo código en diferentes fechas. El diseño de la base de datos debe permitir almacenar un histórico con todas las fechas y las cantidades que nos ha proporcionado un proveedor.&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; dir=&quot;ltr&quot;&gt;Una misma pieza puede ser suministrada por diferentes proveedores.&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; dir=&quot;ltr&quot;&gt;De cada pieza conocemos un código que será único, nombre, color, precio y categoría.&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; dir=&quot;ltr&quot;&gt;Pueden existir varias categorías y para cada categoría hay un nombre y un código de categoría único.&lt;/li&gt;&lt;li style=&quot;line-height: 20px;&quot; dir=&quot;ltr&quot;&gt;Una pieza sólo puede pertenecer a una categoría.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="90" y="650" width="680" height="300" as="geometry" />
+          <mxGeometry x="75" y="710" width="690" height="300" as="geometry" />
         </mxCell>
         <mxCell id="CJQoHtmv8D2sTr8kBcTl-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZjD7kffw54xRGECtynV3-1" target="reKpG1p9Dr51WPF0_0tY-1">
           <mxGeometry relative="1" as="geometry" />
@@ -664,25 +664,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LumDsKm07YcF1xah2Fp--5" value="id_prov" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fillColor=#F8A29C;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="338" y="290" width="80" height="20" as="geometry" />
+          <mxGeometry x="338" y="294" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LumDsKm07YcF1xah2Fp--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LumDsKm07YcF1xah2Fp--6" target="reKpG1p9Dr51WPF0_0tY-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LumDsKm07YcF1xah2Fp--6" value="id_pza" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fillColor=#76DDE8;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="338" y="321" width="80" height="20" as="geometry" />
+          <mxGeometry x="338" y="325" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LumDsKm07YcF1xah2Fp--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LumDsKm07YcF1xah2Fp--11" target="reKpG1p9Dr51WPF0_0tY-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LumDsKm07YcF1xah2Fp--11" value="nombre" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
-          <mxGeometry x="338" y="352" width="80" height="20" as="geometry" />
+        <mxCell id="LumDsKm07YcF1xah2Fp--11" value="fechasum" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="338" y="356" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LumDsKm07YcF1xah2Fp--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LumDsKm07YcF1xah2Fp--12" target="reKpG1p9Dr51WPF0_0tY-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LumDsKm07YcF1xah2Fp--12" value="nombre" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
-          <mxGeometry x="338" y="383" width="80" height="20" as="geometry" />
+        <mxCell id="LumDsKm07YcF1xah2Fp--12" value="pzasum" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="338" y="387" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
